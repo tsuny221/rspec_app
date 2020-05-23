@@ -1,24 +1,22 @@
-# README
+# debug_app
+## 開発スキルアップ【Rails】RSpecを使ってRailsアプリケーションをテストしてみよう
+* Webアプリケーションのテストとは何か
+	Webアプリケーションのテストとは、自動テストと呼ばれるもので、テストコードを書いておくと自動でアプリケーションの動作をテストしてくれます。 今回取り扱うテストも自動テストでモデルやコントローラを中心にテストコードを記述してテストしていきます。
+	テストを行うことで正しい動作を保証し、品質の高いアプリケーションを仕上げる事につながってきます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* RSpecとは何か
+	RSpecとは、Railsで用いられることが多いテストツールであり、gemでinstallすることが可能なため、導入も簡単です。
+	Railsにはデフォルトでテストの機能が備わってますが、RSpecの方が読みやすく人気が高いので検索してもヒットしやすいという利点があるので今回はRSpecを使用しています。
 
-Things you may want to cover:
+# Dependency
+Ruby on Rails
 
-* Ruby version
+# Usage
+* 「使用するコントローラの作成
+* テストコードの記述
+* テストコードを実行し失敗することを確認
+* ページが表示されるようにアプリケーションを作成
+* テストを実行し、正しく動いているか確認
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# References
+DMM WEBCAMP カリキュラム　https://web-camp.online/lesson/curriculums
